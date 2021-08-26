@@ -609,4 +609,61 @@ Wire Wire Line
 	3300 7100 3300 7400
 Wire Wire Line
 	3300 6500 3300 6700
+$Comp
+L Connector:Conn_01x06_Male J?
+U 1 1 6128B18E
+P 6500 3350
+F 0 "J?" H 6472 3324 50  0000 R CNN
+F 1 "Conn_01x06_Male" H 6472 3233 50  0000 R CNN
+F 2 "" H 6500 3350 50  0001 C CNN
+F 3 "~" H 6500 3350 50  0001 C CNN
+	1    6500 3350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 61293AED
+P 6200 3050
+F 0 "#PWR?" H 6200 2900 50  0001 C CNN
+F 1 "+3V3" H 6215 3223 50  0000 C CNN
+F 2 "" H 6200 3050 50  0001 C CNN
+F 3 "" H 6200 3050 50  0001 C CNN
+	1    6200 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61294CF9
+P 6200 3750
+F 0 "#PWR?" H 6200 3500 50  0001 C CNN
+F 1 "GND" H 6205 3577 50  0000 C CNN
+F 2 "" H 6200 3750 50  0001 C CNN
+F 3 "" H 6200 3750 50  0001 C CNN
+	1    6200 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 3750 6200 3650
+Wire Wire Line
+	6200 3650 6300 3650
+Wire Wire Line
+	6300 3150 6200 3150
+Wire Wire Line
+	6200 3150 6200 3050
+Text GLabel 6200 3350 0    50   Input ~ 0
+gate2
+Text GLabel 6200 3250 0    50   Input ~ 0
+gate1
+Text GLabel 6200 3450 0    50   Input ~ 0
+gate3
+Text GLabel 6200 3550 0    50   Input ~ 0
+gate4
+Wire Wire Line
+	6200 3250 6300 3250
+Wire Wire Line
+	6200 3350 6300 3350
+Wire Wire Line
+	6200 3450 6300 3450
+Wire Wire Line
+	6200 3550 6300 3550
 $EndSCHEMATC
